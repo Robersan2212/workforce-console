@@ -8,7 +8,7 @@ The Workforce Console is a comprehensive command-line interface (CLI) applicatio
 
 My purpose for developing this software was to master C# syntax and conventions while building a practical application that demonstrates database connectivity, exception handling, input validation, and modular software architecture. This project serves as a foundation for understanding enterprise-level application development patterns and best practices.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/tURFH4HOK4A)
 
 ## Development Environment
 
