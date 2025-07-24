@@ -1,0 +1,95 @@
+{
+    "project_overview": {
+      "project_name": "CSE 310 Module 6 - C# Application",
+      "developer": "Roberto Sanchez",
+      "instructor": "Alberto Squassiba",
+      "language": "C#",
+      "module_number": 6,
+      "project_type": "Console Application with Database Integration"
+    },
+    "technical_requirements": {
+      "primary_language": "C#",
+      "programming_paradigm": "Object-Oriented Programming",
+      "interface_type": "Command Line Interface (CLI)",
+      "database_requirement": true,
+      "architecture": "Modular design with clear separation of concerns"
+    },
+    "development_schedule": {
+      "total_duration": "2 weeks",
+      "week_1_focus": [
+        "Learn C# fundamentals (3 hours)",
+        "Study Object-Oriented Programming concepts (3 hours)",
+        "Design application architecture (3 hours)",
+        "Set up C# development environment and project structure",
+        "Design command line interface (3 hours)",
+        "Develop database integration (3 hours)"
+      ],
+      "week_2_focus": [
+        "Determine and implement classes (3 hours)",
+        "Develop core program functionality (3 hours)",
+        "Conduct initial testing (3 hours)",
+        "Debug and fix issues (3 hours)",
+        "Ensure full functionality and create demo video (4 hours)",
+        "Create README and documentation (2 hours)"
+      ]
+    },
+    "implementation_instructions": {
+      "step_1": {
+        "task": "Project Setup",
+        "details": "Create a new C# console application project with proper folder structure"
+      },
+      "step_2": {
+        "task": "Database Integration",
+        "details": "Implement database connectivity using appropriate C# libraries (Entity Framework or ADO.NET)"
+      },
+      "step_3": {
+        "task": "Object-Oriented Design",
+        "details": "Create multiple classes following OOP principles including encapsulation, inheritance, and polymorphism"
+      },
+      "step_4": {
+        "task": "Command Line Interface",
+        "details": "Develop an intuitive CLI with menu options, user input validation, and clear output formatting"
+      },
+      "step_5": {
+        "task": "Core Functionality",
+        "details": "Implement the main business logic connecting all components together"
+      }
+    },
+    "quality_assurance": {
+      "testing_approach": "Initial testing followed by comprehensive debugging",
+      "documentation_requirements": [
+        "README file with installation and usage instructions",
+        "Code comments explaining complex logic",
+        "Demo video showcasing functionality"
+      ]
+    },
+    "risk_mitigation": {
+      "primary_risk": "Underestimating C# complexity leading to incomplete deliverables",
+      "mitigation_strategies": [
+        "Implement agile development methodology",
+        "Focus on MVP (Minimum Viable Product) first",
+        "Create buffer time in schedule",
+        "Research best practices and leverage proven methods"
+      ]
+    },
+    "deliverables": {
+      "code_deliverables": [
+        "Complete C# console application",
+        "Database integration components",
+        "Object-oriented class structure"
+      ],
+      "documentation_deliverables": [
+        "README file",
+        "Code documentation",
+        "Demo video (4 hours allocated)"
+      ]
+    },
+    "ai_model_specific_instructions": {
+      "code_style": "Follow C# naming conventions and best practices",
+      "error_handling": "Implement proper exception handling throughout the application",
+      "user_experience": "Create intuitive command-line interactions with clear prompts and feedback",
+      "modularity": "Design code to be easily maintainable and extensible",
+      "database_operations": "Include CRUD operations (Create, Read, Update, Delete) for database interactions"
+    }
+  }
+  
