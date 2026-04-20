@@ -13,17 +13,18 @@ My purpose for developing this software was to master C# syntax and conventions 
 
 ### Tools Used
 - **Visual Studio Code** - Primary code editor with C# extensions
-- **.NET 8.0 SDK** - Cross-platform development framework
+- **.NET 10.0 SDK** - Cross-platform development framework
 - **Entity Framework Core CLI** - Database migration and management tools
 - **SQLite** - Lightweight, serverless database engine
 - **Git** - Version control system
-- **Linux (Fedora)** - Development operating system
 
 ### Programming Language and Libraries
 - **C#** - Primary programming language utilizing modern syntax features
 - **Entity Framework Core 9.0.7** - Object-relational mapping (ORM) framework
 - **Microsoft.EntityFrameworkCore.Sqlite** - SQLite database provider
 - **Microsoft.EntityFrameworkCore.Design** - EF Core design-time tools
+- **xUnit 2.9.3** - Unit testing framework
+- **Coverlet** - Code coverage collection for .NET
 - **System.ComponentModel.DataAnnotations** - Data validation attributes
 - **System.IO** - File system operations for database path management
 
@@ -43,7 +44,6 @@ My purpose for developing this software was to master C# syntax and conventions 
 - **Data Export/Import** - Implement CSV/Excel export and import functionality
 - **Audit Logging** - Track all changes made to employee and department records
 - **Web API Integration** - Create RESTful API endpoints for web-based access
-- **Unit Testing** - Add comprehensive unit tests using xUnit or NUnit
 - **Configuration Management** - Implement appsettings.json for database connection strings
 - **Performance Optimization** - Add pagination for large datasets and query optimization
 - **Data Validation Enhancement** - Implement more robust input validation and business rules
