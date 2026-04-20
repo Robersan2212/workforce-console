@@ -2,7 +2,7 @@
 
 ## Overview
 
-As a software engineer passionate about expanding my technical skills, I developed this Workforce Console application to deepen my understanding of modern C# development practices, database integration, and object-oriented programming principles. This project represents my commitment to continuous learning and practical application of software engineering concepts.
+As a software engineer expanding my technical skills, I developed this Workforce Console application to deepen my understanding of modern C# development practices, database integration, and object-oriented programming principles.
 
 The Workforce Console is a comprehensive command-line interface (CLI) application built in C# that demonstrates full-stack development capabilities by integrating a SQLite database with Entity Framework Core. The application provides complete CRUD (Create, Read, Update, Delete) operations for managing employee and department data, showcasing real-world database management scenarios.
 
