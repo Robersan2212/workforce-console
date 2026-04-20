@@ -5,14 +5,20 @@ namespace WorkforceConsole
 {
     public class WorkforceContext : DbContext
     {
+        public WorkforceContext() { }
+
+        public WorkforceContext(DbContextOptions<WorkforceContext> options) : base(options) { }
+
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Department> Departments { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // Use absolute path to ensure database is found
-            var dbPath = Path.Combine(Directory.GetCurrentDirectory(), "workforce.db");
-            optionsBuilder.UseSqlite($"Data Source={dbPath}");
+            if (!optionsBuilder.IsConfigured)
+            {
+                var dbPath = Path.Combine(Directory.GetCurrentDirectory(), "workforce.db");
+                optionsBuilder.UseSqlite($"Data Source={dbPath}");
+            }
         }
     }
 } 
