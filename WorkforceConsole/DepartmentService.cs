@@ -42,7 +42,7 @@ namespace WorkforceConsole
         }
 
         // Get department by ID
-        public Department GetDepartmentById(int id)
+        public Department? GetDepartmentById(int id)
         {
             try
             {

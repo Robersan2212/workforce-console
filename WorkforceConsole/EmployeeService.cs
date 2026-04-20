@@ -58,7 +58,7 @@ namespace WorkforceConsole
         }
 
         // Get employee by ID
-        public Employee GetEmployeeById(int id)
+        public Employee? GetEmployeeById(int id)
         {
             try
             {

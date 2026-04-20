@@ -97,7 +97,7 @@ namespace WorkforceConsole
                         if (!string.IsNullOrWhiteSpace(deptInput) && int.TryParse(deptInput, out int parsedDeptId))
                             deptId = parsedDeptId;
                         
-                        var newEmp = new Employee { FirstName = firstName, LastName = lastName, DepartmentId = deptId };
+                        var newEmp = new Employee { FirstName = firstName ?? "", LastName = lastName ?? "", DepartmentId = deptId };
                         employeeService.AddEmployee(newEmp);
                         Console.WriteLine("Press any key to continue...");
                         Console.ReadKey();
@@ -185,7 +185,7 @@ namespace WorkforceConsole
                     case "2":
                         Console.Write("Department Name: ");
                         var name = Console.ReadLine();
-                        var newDept = new Department { Name = name };
+                        var newDept = new Department { Name = name ?? "" };
                         departmentService.AddDepartment(newDept);
                         Console.WriteLine("Department added. Press any key to continue...");
                         Console.ReadKey();

@@ -9,7 +9,7 @@ namespace WorkforceConsole
         [Key]
         public int DepartmentId { get; set; }
         [Required]
-        public string Name { get; set; }
+        public required string Name { get; set; }
         public List<Employee> Employees { get; set; } = new List<Employee>();
     }
 
@@ -18,11 +18,11 @@ namespace WorkforceConsole
         [Key]
         public int EmployeeId { get; set; }
         [Required]
-        public string FirstName { get; set; }
+        public required string FirstName { get; set; }
         [Required]
-        public string LastName { get; set; }
+        public required string LastName { get; set; }
         public int? DepartmentId { get; set; }
         [ForeignKey("DepartmentId")]
-        public Department Department { get; set; }
+        public Department? Department { get; set; }
     }
 } 
