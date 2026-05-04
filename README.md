@@ -2,11 +2,13 @@
 
 ## Overview
 
-As a software engineer expanding my technical skills, I developed this Workforce Console application to deepen my understanding of modern C# development practices, database integration, and object-oriented programming principles.
+Workforce Console is a .NET 10 command-line application that solves a real organizational need: maintaining a reliable, persistent record of employees and the departments they belong to. Rather than relying on spreadsheets or ad-hoc text files, it gives operators a structured, menu-driven interface to create, view, update, and delete workforce data backed by a SQLite database.
 
-The Workforce Console is a comprehensive command-line interface (CLI) application built in C# that demonstrates full-stack development capabilities by integrating a SQLite database with Entity Framework Core. The application provides complete CRUD (Create, Read, Update, Delete) operations for managing employee and department data, showcasing real-world database management scenarios.
+The application manages two related entities — employees and departments — with a one-to-many relationship. It enforces referential integrity at the service layer (e.g., validating that a department exists before assigning an employee to it) and supports flexible modeling through optional department assignments, reflecting how workforce data works in practice.
 
-My purpose for developing this software was to master C# syntax and conventions while building a practical application that demonstrates database connectivity, exception handling, input validation, and modular software architecture. This project serves as a foundation for understanding enterprise-level application development patterns and best practices.
+Architecturally, the project applies a service layer pattern to cleanly separate business logic from the UI, with constructor-injected `DbContext` enabling testability without coupling to a live database. Entity Framework Core handles schema migrations and object-relational mapping, keeping data access expressive and type-safe. The service layer is covered by an xUnit test suite with Coverlet for code coverage tracking.
+
+This project was built to demonstrate practical proficiency in .NET backend development: relational data modeling, layered application architecture, dependency injection, database migrations, and unit testing — all applied within a focused, real-world domain.
 
 
 ## Development Environment
